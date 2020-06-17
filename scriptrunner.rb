@@ -5,7 +5,6 @@
 #[Vendor Url] https://marketplace.atlassian.com/plugins/com.onresolve.jira.groovy.groovyrunner
 #[Install] To use this copy it into  ~/.msf4/modules/exploits/windows/http/scriptrunner.rb
 
-
 require 'msf/core'
 
 class Metasploit4 < Msf::Exploit::Remote
